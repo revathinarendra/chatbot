@@ -6,6 +6,7 @@ load_dotenv()
 dify_api_key = os.environ.get('dify_api_key')
 
 url = "https://api.dify.ai/v1/chat-messages"
+print(url)
 
 st.title("Dify Streamlit App")
 
