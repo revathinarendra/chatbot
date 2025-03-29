@@ -2,9 +2,8 @@
     "version": 2,
     "builds": [
       {
-        "src": "build_files.sh",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "public" }
+        "src": "app.py",
+        "use": "@vercel/python"
       }
     ],
     "routes": [
